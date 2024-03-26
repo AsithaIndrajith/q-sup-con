@@ -1,0 +1,8 @@
+data
+__pycache__
+experiments/tf_cl/t1/enc.h5
+experiments/tf_cl/t1/clf.h5
+models
+experiments/*/encoder
+experiments/*/encoder_with_projection_head
+experiments/*/classifier
