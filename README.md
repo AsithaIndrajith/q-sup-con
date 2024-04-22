@@ -27,6 +27,54 @@ The Q-SupCon research addresses the challenge of data scarcity in classification
 
 - **Quantum Image Processing and Compression:** A versatile data augmentation circuit designed for quantum image processing, coupled with an adaptable quantum autoencoder circuit for data compression, is suitable for diverse application domains.
 
+## Getting Started
+
+To get started with this project, follow the steps below to set up and run the code on your local machine.
+
+### Prerequisites
+
+Before running the code, make sure you have the following software and dependencies installed:
+
+1. **Conda:**
+   - If you don't have Conda installed, follow the installation instructions for your operating system [here](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html).
+
+2. **Create a Conda Environment:**
+   - Create a new Conda environment:
+     ```bash
+     conda env create -n <env_name> python=3.10
+     ```
+
+   - Activate the Conda environment:
+     ```bash
+     conda activate your_environment_name
+     ```
+
+3. **PyTorch:**
+   - Install PyTorch within your Conda environment:
+     ```bash
+     conda install pytorch torchvision torchaudio cudatoolkit=11.1 -c pytorch
+     ```
+
+4. **IBM Qiskit:**
+   - Install IBM Qiskit within your Conda environment:
+     ```bash
+     conda install -c conda-forge qiskit
+     ```
+
+   - Additional installation for IBM Qiskit Aer (optional):
+     ```bash
+     conda install -c conda-forge qiskit-aer
+     ```
+
+   - Additional installation for IBM Qiskit Aqua (optional):
+     ```bash
+     conda install -c conda-forge qiskit-aqua
+     ```
+
+Make sure to replace `your_environment_name` with the desired name for your Conda environment.
+
+Now, you're ready to run the project with the specified dependencies.
+
 ### Installation
 
 To install and run the project on your local machine, follow these simple steps:
